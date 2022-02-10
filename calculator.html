@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head><title>Calculator</title></head>
+<body>
+  Welcome to calculator. Choose a button below to execute your desired operation.
+  <form name="input" action="calculator.php" method="get">
+    <p>
+      First Number: <input type="text" name="num1"/>
+      Second Number: <input type="text" name="num2"/><br>
+    </p>
+    <p>
+      <strong>Operation</strong>
+      <input type="radio" name="operation" value="add" id="opadd"/> <label for="opadd">Add</label>
+      <input type="radio" name="operation" value="subtract" id="opsub"/> <label for="opsub">Subtract</label>
+      <input type="radio" name="operation" value="multiply" id="opmult"/> <label for="opmult">Multiply</label>
+      <input type="radio" name="operation" value="divide" id="opdiv"/> <label for="opdiv">Divide</label>
+    </p>
+    <p>
+      <input type="submit" value="Calculate">
+  </form>
+</body>
